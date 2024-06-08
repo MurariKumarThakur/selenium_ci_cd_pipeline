@@ -21,14 +21,10 @@ public class TestClass {
 	@BeforeMethod
 	public void launchDriver() {
 		
-		   WebDriverManager.chromedriver().setup();
-
-	        ChromeOptions options = new ChromeOptions();
-	        options.addArguments("--headless");
-	      
-
-	         driver = new ChromeDriver(options);
-	
+		 WebDriverManager.chromedriver().setup();
+		 ChromeOptions options = new ChromeOptions();
+		 options.addArguments("--headless");
+		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get("https://todoapp-f9fc0.web.app/home");
 	}
@@ -47,6 +43,9 @@ public class TestClass {
     }
     @AfterMethod
     public void closeBrowserInstance() {
-    	driver.quit();
+      if(	driver !=null) {
+    	  driver.quit(); 
+      }
+    	
     }
 }
