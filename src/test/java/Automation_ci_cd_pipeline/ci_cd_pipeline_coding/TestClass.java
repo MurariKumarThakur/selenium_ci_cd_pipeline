@@ -21,10 +21,12 @@ public class TestClass {
 	@BeforeMethod
 	public void launchDriver() {
 		
-		   WebDriverManager.chromedriver().setup();
-//		    ChromeOptions options = new ChromeOptions();
-//		    options.addArguments("--headless");
-		    driver = new ChromeDriver();
+		 DesiredCapabilities capabilities = new DesiredCapabilities();
+         capabilities.setBrowserName("chrome");
+         ChromeOptions options = new ChromeOptions();
+         options.addArguments("--headless=new");
+         // driver = WebDriverManager.chromedriver().capabilities(options).create();
+        driver= WebDriverManager.chromedriver().create();
 	
 		 driver.manage().window().maximize();
 		 driver.get("https://todoapp-f9fc0.web.app/home");
