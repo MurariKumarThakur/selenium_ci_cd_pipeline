@@ -24,6 +24,8 @@ public class TestClass {
 		 WebDriverManager.chromedriver().setup();
 		 ChromeOptions options = new ChromeOptions();
 		 options.addArguments("--headless");
+		  options.addArguments("--no-sandbox");
+	        options.addArguments("--disable-dev-shm-usage");
 		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get("https://todoapp-f9fc0.web.app/home");

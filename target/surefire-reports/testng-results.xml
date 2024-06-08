@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-08T10:32:29 IST" name="Suite" finished-at="2024-06-08T10:32:31 IST" duration-ms="2433">
+  <suite started-at="2024-06-08T12:01:34 IST" name="Suite" finished-at="2024-06-08T12:01:36 IST" duration-ms="2518">
     <groups>
     </groups>
-    <test started-at="2024-06-08T10:32:29 IST" name="Test" finished-at="2024-06-08T10:32:31 IST" duration-ms="2433">
+    <test started-at="2024-06-08T12:01:34 IST" name="Test" finished-at="2024-06-08T12:01:36 IST" duration-ms="2518">
       <class name="Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:29 IST" name="launchDriver" finished-at="2024-06-08T10:32:30 IST" duration-ms="1088" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:34 IST" name="launchDriver" finished-at="2024-06-08T12:01:35 IST" duration-ms="1113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test1()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:30 IST" name="test1" finished-at="2024-06-08T10:32:30 IST" duration-ms="6" status="PASS">
+        <test-method signature="test1()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:35 IST" name="test1" finished-at="2024-06-08T12:01:35 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:30 IST" name="closeBrowserInstance" finished-at="2024-06-08T10:32:30 IST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:35 IST" name="closeBrowserInstance" finished-at="2024-06-08T12:01:35 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserInstance -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:30 IST" name="launchDriver" finished-at="2024-06-08T10:32:31 IST" duration-ms="482" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:35 IST" name="launchDriver" finished-at="2024-06-08T12:01:36 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test2()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:31 IST" name="test2" finished-at="2024-06-08T10:32:31 IST" duration-ms="4" status="PASS">
+        <test-method signature="test2()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:36 IST" name="test2" finished-at="2024-06-08T12:01:36 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:31 IST" name="closeBrowserInstance" finished-at="2024-06-08T10:32:31 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:36 IST" name="closeBrowserInstance" finished-at="2024-06-08T12:01:36 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserInstance -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:31 IST" name="launchDriver" finished-at="2024-06-08T10:32:31 IST" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:36 IST" name="launchDriver" finished-at="2024-06-08T12:01:36 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="test3()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:31 IST" name="test3" finished-at="2024-06-08T10:32:31 IST" duration-ms="5" status="PASS">
+        <test-method signature="test3()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:36 IST" name="test3" finished-at="2024-06-08T12:01:36 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T10:32:31 IST" name="closeBrowserInstance" finished-at="2024-06-08T10:32:31 IST" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="closeBrowserInstance()[pri:0, instance:Automation_ci_cd_pipeline.ci_cd_pipeline_coding.TestClass@1ffe63b9]" started-at="2024-06-08T12:01:36 IST" name="closeBrowserInstance" finished-at="2024-06-08T12:01:36 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserInstance -->
